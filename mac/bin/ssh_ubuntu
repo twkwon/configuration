@@ -1,0 +1,6 @@
+#!/bin/sh
+echo 
+echo "<<< Fuxxx' to Ubuntu Server >>>"
+echo 
+ssh alank@172.16.95.128
+

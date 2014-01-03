@@ -1,0 +1,8 @@
+#!/bin/sh
+echo 
+#echo "<<< Fuxxx' to sshfs-C3G3T3 >>>"
+#sshfs B070366@192.168.1.224:/home/B070366 /Users/alank/c3g3t3
+#echo 
+echo "<<< Fuxxx' to C3G3T3 Server >>>"
+ssh B070366@192.168.1.224
+
