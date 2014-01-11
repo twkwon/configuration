@@ -22,7 +22,7 @@ mac
 
 linux
 ----
-`.profile` - login configuration.  
+`.bash_aliases` - login configuration. (*** Do not modify .profile)  
 `.vimrc` - vim configuration.  
 `.vim/`  
 * `tagbar.vim` - Display tag (mapping `F8` in the `.profile`).
