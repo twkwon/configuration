@@ -22,3 +22,20 @@ mac
 
 linux
 ----
+`.profile` - login configuration.  
+`.vimrc` - vim configuration.  
+`.vim/`  
+* `tagbar.vim` - Display tag (mapping `F8` in the `.profile`).
+* `taglist.vim` - Display tag (vi command mode: tlist).  
+
+`bin/`  
+* `tagbar.vmb` - Install file for tagbar.
+
+```
+Use the normal Vimball installation method to install Tagbar:
+    vim tagbar.vba
+    :so %
+    :q
+```
+
+* `vcprompt` - Version control information in your prompt.
