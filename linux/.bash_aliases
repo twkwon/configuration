@@ -4,6 +4,7 @@
 #--------------------------------------------- 
 export PATH=$PATH:/home/alank/bin
 
+
 #--------------------------------------------- 
 # alias
 #--------------------------------------------- 
@@ -41,3 +42,10 @@ echo -e "$(VCPROMPT_FORMAT=($(tput setaf 6)%h$(tput sgr0)@$(tput setaf 2)%b$(tpu
 export PS1='\[${c_cyan}\]\u\[${c_sgr0}\]@\[${c_blue}\]mac\[${c_sgr0}\]:\w\[${c_sgr0}\] $(show_repository)\$ '
 #export PS1='\[${c_cyan}\]\u\[${c_sgr0}\]@\[${c_blue}\]\h\[${c_sgr0}\]:\w\[${c_sgr0}\] $(show_repository)\$ '
 #export PS1='[\u@\w] '
+
+
+#--------------------------------------------- 
+# Android
+#--------------------------------------------- 
+export USE_CCACHE=1
+
